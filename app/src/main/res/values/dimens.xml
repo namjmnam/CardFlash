@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="test_q_and_a">20sp</dimen>
+    <dimen name="test_explanation">14sp</dimen>
+</resources>

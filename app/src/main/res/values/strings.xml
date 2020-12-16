@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Card Flash</string>
+    <string name="test_question">dummy word</string>
+    <string name="test_answer">dummy meaning</string>
+    <string name="test_explanation">blah blah blah</string>
+    <string name="next_button">Next</string>
+    <string name="end_button">End</string>
+    <string name="init_test_button">Start Test</string>
+    <string name="hint">Tab to view answer</string>
+    <string name="move_to_list">Tab to view list</string>
+    <string name="add_word_hint">word here</string>
+    <string name="add_answer_hint">answer here</string>
+    <string name="add_explanation_hint">explain here</string>
+    <string name="add_pair_content_description">Tab to add pair</string>
+</resources>
