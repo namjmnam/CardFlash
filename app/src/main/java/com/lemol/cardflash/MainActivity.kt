@@ -67,8 +67,5 @@ class MainActivity : AppCompatActivity() {
     private fun newQuestion() {
         findViewById<TextView>(R.id.testQuestion).text = "new question!"
         findViewById<TextView>(R.id.testAnswer).text = "new answer!"
-        //findViewById<TextView>(R.id.testExplanation).text = "new explanation!"
     }
 }
-
-//data class GenerateQuestion (var question : String, var answer : String, var explanation : String)

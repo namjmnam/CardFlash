@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CardFlash">
         <activity android:name=".WordList"></activity>
-        <activity android:name=".TestSub" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
