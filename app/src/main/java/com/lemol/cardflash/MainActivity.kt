@@ -65,7 +65,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun newQuestion() {
-        findViewById<TextView>(R.id.testQuestion).text = "new question!"
-        findViewById<TextView>(R.id.testAnswer).text = "new answer!"
+        val item = savedVocabs.all.toList().shuffled().first()
+        findViewById<TextView>(R.id.testQuestion).text = item.first
+        findViewById<TextView>(R.id.testAnswer).text = item.second.toString()
     }
 }
