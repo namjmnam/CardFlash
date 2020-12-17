@@ -30,7 +30,7 @@ class WordList : AppCompatActivity() {
         findViewById<RecyclerView>(R.id.recycler_view).setHasFixedSize(true)
 
         savedVocabs = getSharedPreferences("DictList", Context.MODE_PRIVATE)
-        generateListFromSP()
+        generateListFromSP(null)
     }
 
     private fun addToSharedPreferences(word : String, answer : String) {
@@ -59,7 +59,7 @@ class WordList : AppCompatActivity() {
         adapter.notifyItemRemoved(1)
     }
 
-    private fun generateListFromSP() {
+    fun generateListFromSP(view: View?) {
         wordPair.clear()
         savedVocabs.all.toMap()
                 .map { WordPair(it.key, it.value.toString()) }
