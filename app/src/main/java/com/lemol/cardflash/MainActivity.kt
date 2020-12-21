@@ -107,3 +107,4 @@ class MainActivity : AppCompatActivity() {
 }
 
 //data class GenerateQuestion (var question : String, var answer : String, var explanation : String)
+//Needs license
