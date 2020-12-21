@@ -1,0 +1,20 @@
+name: gradle
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: assembleDebug
+        run: ./gradlew assembleDebug
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: outputs
+          path: app/build/outputs/
